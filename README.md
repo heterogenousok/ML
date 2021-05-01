@@ -1,3 +1,3 @@
 # ML
 machine learning
-hi！here are some ml skills
+hi！here are some ml skills.
