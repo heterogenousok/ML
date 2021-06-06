@@ -1,0 +1,170 @@
+ 1999  clear
+ 2000  vim .bash_history 
+ 2001  ls
+ 2002  ls --color=never
+ 2003  mkdir python3
+ 2004  mv day* python3
+ 2005  ls
+ 2006  mkdir day3
+ 2007  cd day3/
+ 2008  ls
+ 2009  ls -a
+ 2010  echo hello >file
+ 2011  ls -l
+ 2012  ls ../ -l
+ 2013  mv ../shop72.tar.gz .
+ 2014  ls -l
+ 2015  ls -lh
+ 2016  ls -lh ..
+ 2017  ls
+ 2018  ls -al
+ 2019  ls -ail
+ 2020  ln file file1
+ 2021  ls -ial
+ 2022  cat file
+ 2023  cd ..
+ 2024  ls -il
+ 2025  cd ..
+ 2026  ls -lia
+ 2027  cd luke
+ 2028  pwd
+ 2029  cd day3
+ 2030  ls -ail
+ 2031  history 
+ 2032  cd ~
+ 2033  pwd
+ 2034  cd -
+ 2035  env
+ 2036  echo $OLDPWD
+ 2037  echo $PWD
+ 2038  pwd
+ 2039  cd -
+ 2040  env
+ 2041  ls
+ 2042  mkdir dir1
+ 2043  ls -l
+ 2044  cd dir1
+ 2045  ls -il
+ 2046  ls -ila
+ 2047  mkdir ../dir2
+ 2048  ls -ila
+ 2049  ls ..
+ 2050  rmdir dir1
+ 2051  ls
+ 2052  cd ..
+ 2053  rmdir dir1
+ 2054  ls
+ 2055  mkdir dir2/dir3
+ 2056  ls
+ 2057  ls dir2/
+ 2058  rmdir dir2
+ 2059  ls
+ 2060  cp file1 dir2
+ 2061  ls ..
+ 2062  cp ../pip.conf .
+ 2063  ls
+ 2064  ls -l
+ 2065  ls -il
+ 2066  cp file file2
+ 2067  ls -il
+ 2068  vim file
+ 2069  vim file1
+ 2070  vim file
+ 2071  ls -il
+ 2072  cat file1
+ 2073  cat file2
+ 2074  ln -s file file4
+ 2075  ls -l
+ 2076  cat file4
+ 2077  rm file
+ 2078  ls -l
+ 2079  cat file4
+ 2080  cat file1
+ 2081  ls -il
+ 2082  ls
+ 2083  ls dir2/
+ 2084  cp file1 dir2/
+ 2085  ls
+ 2086  cp -i file1 dir2/
+ 2087  ls
+ 2088  cp dir2 dir3
+ 2089  cp -r dir2 dir3
+ 2090  ls
+ 2091  ls dir3
+ 2092  ls
+ 2093  rm file4
+ 2094  ls
+ 2095  mv file2 dir3
+ 2096  ls
+ 2097  ls dir3
+ 2098  ls
+ 2099  mv pip.conf pip1.conf
+ 2100  ls
+ 2101  mv dir3 dir4
+ 2102  ls
+ 2103  ls dir4
+ 2104  mv file1 dir4/
+ 2105  ls
+ 2106  ls dir4
+ 2107  touch file1
+ 2108  cat dir4/file1
+ 2109  ls
+ 2110  cat file1 
+ 2111  mv -i file1 dir4/
+ 2112  cat dir4/file1 
+ 2113  mv -i file1 dir4/
+ 2114  cat dir4/file1 
+ 2115  rm pip1.conf 
+ 2116  ls
+ 2117  rm /home/xiongda/examples.desktop 
+ 2118  ls
+ 2119  touch file1
+ 2120  rm -i file1 
+ 2121  ls
+ 2122  rm dir2
+ 2123  rm -r dir2
+ 2124  ls
+ 2125  rm -rf shop72.tar.gz 
+ 2126  ls
+ 2127  tree
+ 2128  tree -h
+ 2129  tree -D
+ 2130  ls -lh
+ 2131  cat /etc/passwd
+ 2132  ls -l
+ 2133  chmod o+w dir4
+ 2134  ls -l
+ 2135  ls
+ 2136  ls -l
+ 2137  cd dir4/
+ 2138  ls
+ 2139  ls -l
+ 2140  echo hello >file3
+ 2141  ls
+ 2142  cd ..
+ 2143  ls
+ 2144  ls -l
+ 2145  chmod o-w dir4
+ 2146  ls
+ 2147  ls -l
+ 2148  chmod 777 dir4
+ 2149  ll
+ 2150  chmod 664 dir4
+ 2151  ll
+ 2152  cd dir4
+ 2153  chmod 775 dir4
+ 2154  ll
+ 2155  mount
+ 2156  ls
+ 2157  mkdir dir3
+ 2158  mv dir3 dir4
+ 2159  ls
+ 2160  ls dir4
+ 2161  ls
+ 2162  mkdir dir5
+ 2163  ls
+ 2164  ls dir4
+ 2165  ls
+ 2166  cd ..
+ 2167  history 
+ 2168  history |tail -170 >day3_history1.txt
